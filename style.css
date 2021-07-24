@@ -1,0 +1,50 @@
+body {
+  font-size: 15px;
+  text-align: center;
+}
+button {
+  position: relative;
+  display: inline-block;
+  line-height: 2rem;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  outline: none;
+  border-radius: .5rem;
+  margin: .3rem;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 0 0 .1rem #ddd inset, 0 .1rem .1rem #fff;
+}
+button:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 .1rem #aaa inset, 0 .1rem .1rem #aaa;
+}
+button:active {
+  background: none;
+    box-shadow: 0 0 0 .1rem #bbb inset, 0 .1rem .3rem rgba(0,0,0,.5) inset, 0 .1rem .2rem #fff;
+}
+h1 {
+  margin-top: .2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+input {
+  padding: .5rem;
+  margin-right: .2rem;
+}
+.item__save {
+  font-size: 1.6rem;
+}
+.item__name {
+  font-weight: bold;
+}
+@media only screen and (max-device-width: 600px) {
+  body {
+    font-size: 30px;
+  }
+  button {
+    font-size: 30px;
+  }
+}
